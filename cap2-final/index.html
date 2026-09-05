@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laura D'Orrose — Beneath the Silk · The Four Wills</title>
+<meta name="description" content="An interactive dark fantasy chapter — read, listen, and watch the story of Laura D'Orrose, heir to a throne she never wanted, one month before the Royal Tournament.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Four Wills">
+<meta property="og:title" content="Laura D'Orrose — Beneath the Silk">
+<meta property="og:description" content="An interactive dark fantasy chapter — read, listen, and watch the story of Laura D'Orrose, heir to a throne she never wanted, one month before the Royal Tournament.">
+<meta property="og:image" content="https://marcelomartinsjorge.github.io/the4willschapter2/assets/images/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://marcelomartinsjorge.github.io/the4willschapter2/">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Laura D'Orrose — Beneath the Silk">
+<meta name="twitter:description" content="An interactive dark fantasy chapter — read, listen, and watch the story of Laura D'Orrose, heir to a throne she never wanted, one month before the Royal Tournament.">
+<meta name="twitter:image" content="https://marcelomartinsjorge.github.io/the4willschapter2/assets/images/og-cover.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://marcelomartinsjorge.github.io/the4wills-shared/main.css">
+<link rel="stylesheet" href="content/cap02/chapter-theme.css">
+</head>
+<body>
+
+<canvas id="snowCanvas" class="snow-canvas" aria-hidden="true"></canvas>
+
+<div class="lang-toggle" id="langToggle">
+  <button data-lang="en" class="active">EN</button>
+  <button data-lang="pt">PT-BR</button>
+</div>
+
+<header class="hero" id="hero" style="background-image:url('assets/images/hero.webp')">
+  <div class="hero-inner">
+    <p class="book-line" data-en="The Four Wills · Book I" data-pt="As Quatro Vontades · Livro I">The Four Wills · Book I</p>
+    <p class="eyebrow" data-en="Chapter II" data-pt="Capítulo II">Chapter II</p>
+    <h1>Laura D'Orrose</h1>
+    <p class="subtitle" data-en="Beneath the Silk" data-pt="Sob a Seda">Beneath the Silk</p>
+    <button class="enter-btn" id="enterBtn"><span data-en="Enter the castle" data-pt="Entrar no castelo">Enter the castle</span> <span class="state" id="enterState" data-en="✦ ambient sound" data-pt="✦ som ambiente">✦ ambient sound</span></button>
+  </div>
+  <div class="scroll-cue"><span class="line"></span><span data-en="scroll" data-pt="role">scroll</span></div>
+</header>
+
+<main>
+
+<!-- ============================================================= -->
+<!-- ENGLISH BLOCK                                                  -->
+<!-- ============================================================= -->
+<div class="lang-content active" data-lang="en" id="langBlockEN">
+  <div class="chapter-mark">
+    <span class="eyebrow">Chapter II</span>
+    <h2>Laura D'Orrose — Beneath the Silk</h2>
+  </div>
+
+  <div class="narration-wrap">
+    <button class="narration-cue" data-audio="assets/audio/narration/line1.mp3">
+      <span class="nc-icon"><svg class="nc-play" viewBox="0 0 10 10" fill="currentColor"><polygon points="1,0 10,5 1,10"/></svg><span class="nc-eq"><i></i><i></i><i></i></span></span>
+      <span class="nc-text" data-en="Listen to Laura" data-pt="Ouvir Laura">Listen to Laura</span>
+    </button>
+  </div>
+
+  <section class="zone" data-zone="alfaiataria">
+    <p class="first-p">The tailor measures every inch of my body, for the thousandth time this week, the cold tape against my skin, pins clenched between his teeth like the spines of some small animal. In a month the Royal Tournament takes place, and my mother — the Mother-Queen Dolores D'Orrose — seems more anxious than I am. She wants me flawless before the new General-King.</p>
+
+    <p>And for the thousandth time I'm here, uncomfortable, my breath caught, while the tailor does his work. I count the distance to the window: twenty quick steps, a one-meter jump, and I climb down the library roof. On the far side there's a wall of ivy sturdy enough to hold my weight to the ground. From there, just find a horse. It wouldn't be hard to vanish into Redom, if the whole kingdom didn't know exactly who I am. The Mother-Queen's daughter.</p>
+  <div class="scene-wrap">
+    <button class="scene-cue" data-video="assets/video/alfaiataria-medidas.mp4">
+      <span class="sc-thumb"><span class="sc-play-ico"><svg viewBox="0 0 10 10"><polygon points="1,0 10,5 1,10"/></svg></span></span>
+      <span class="sc-label" data-en="Watch the scene" data-pt="Ver a cena">Watch the scene</span>
+    </button>
+  </div>
+
+    <p>It's also the thousandth time I've traced this escape plan. Marrying and bearing children for a nobleman I've never met is a nightmare that edges closer to real with every day that passes. I was raised my entire life for this day, and even so I'm not ready. I try to compose myself, feel my eyes filling with tears.</p>
+
+    <p>— Ah — the tailor steps back and looks me over, head to foot. — You'll be the most beautiful Mother-Queen in history. No question, the gown with the emerald trim is the finest choice. It matches your green eyes, and the gold in your hair looks brighter still beside it.</p>
+
+    <p>I answer with a yawn. Not out of rudeness — maybe an instinct to explain away the wet eyes. But I add:</p>
+
+    <p>— You're very kind, Master Gideon.</p>
+
+    <p>He bows forward, one hand to his chest, and uses the motion to turn, still bent, toward the door, where my mother has just walked in.</p>
+
+    <p>— Laura! — she calls, crossing the room in a hurry, nearly kicking the low table on her way. — Let me see your hands. Now.</p>
+
+    <p>She doesn't wait for my answer. Even though I pull my hands behind my back on pure instinct, she takes the right one, sharp, turning the palm up.</p>
+
+    <p>— Have you been fencing with your brother again? Look at this, covered in calluses. Laura!</p>
+
+    <p>— It was only last night, mother. You know fencing calms me, and I'm very nervous about the Royal Tournament.</p>
+
+    <p>— You know that's no excuse! I'm sure every one of your tutors has explained very clearly that a Mother-Queen does not touch weapons. And no calluses! Do I need to check again that you're not hiding a single scar on your body?</p>
+
+    <p>It's the cue Gideon has been waiting for, and he slips out of the room sideways, still bowing.</p>
+
+
+    <p>— I can promise my body looks exactly like it did the last time you checked, mother. I only train with Simon, and he can never land a hit.</p>
+
+    <p>— Your brother is growing. A well-fed man gets stronger every day.</p>
+
+    <p>I look past Dolores. The path to the window seems shorter now than it did while Gideon was still here.</p>
+
+    <p>— You're sixteen already, Laura, my darling. Promise me that was the last time.</p>
+
+    <p>I promise. I hate lying — it costs something physical, a weight behind my chest — and this time the tears finally spill down my face.</p>
+
+    <p>— You'll be very happy, my daughter. Markus will win the Tournament, without question. He's an honorable man. The two of you will govern better than my late husband and I ever did.</p>
+  </section>
+
+  <div class="divider">✦</div>
+  <div class="narration-wrap">
+    <button class="narration-cue" data-audio="assets/audio/narration/line2.mp3">
+      <span class="nc-icon"><svg class="nc-play" viewBox="0 0 10 10" fill="currentColor"><polygon points="1,0 10,5 1,10"/></svg><span class="nc-eq"><i></i><i></i><i></i></span></span>
+      <span class="nc-text" data-en="Listen to Laura" data-pt="Ouvir Laura">Listen to Laura</span>
+    </button>
+  </div>
+
+  <section class="zone" data-zone="oratorio-prece">
+    <p>After the pause for the tailor, I have a long afternoon of history lessons. I can't hold my attention — in the end, every lesson looks the same. Stories of the Eternal War, which they say is nearing its end, now that the Grakh are no longer considered a serious threat; and more rumor than fact about the Dimming of the Lights, which serves, every single day, as a fresh reminder of the dangers of magic.</p>
+
+    <p>I'm not hungry, so instead of the dining hall I take the turn toward the shrine: a small space, home to two great statues. The Knight and The Judge. Our gods.</p>
+
+    <p>I kneel at The Knight's feet and ask for courage, because I'm going to need a great deal of it. I feel that He has watched over me since I was very small, and that He's the only one who will understand what I'm about to do. I ask forgiveness for what I'll have to steal, the man I'll have to corrupt, the order I'll have to break that was never meant to be broken.</p>
+  </section>
+
+  <section class="zone" data-zone="oratorio-justine">
+    <p>I open my eyes and find I've clenched my hands so hard my nails have broken the skin; both are bleeding. I look around for something to clean them with and notice someone kneeling before The Judge. Justine. She ends her own prayer the moment she looks at me, and my heart starts racing.</p>
+
+    <p>— Laura — she says, quietly, but without a trace of softness.</p>
+
+    <p>— Hi, Justine. — I look down. It's hard to face her knowing her dream is to be Mother-Queen.</p>
+
+    <p>— Come to pledge loyalty to your future husband? — Her smile mixes mockery and sadness in equal measure. I notice because the late-afternoon light comes through the window and catches her lips, which are perfect.</p>
+
+    <p>— You know I don't want this. You know that if I could, I'd convince Dolores to choose you, not me.</p>
+
+    <p>— Unfortunately the General-King died before she could — she says, with sincerity, with real regret. — It's how things tend to go. After all these years studying together, we know that better than anyone.</p>
+
+    <p>— I know. But I never tire of coming here to beg The Judge. I prepared myself, even with such slim chances, to be the best Mother-Queen Redom has ever had. If justice is as important as we've always been taught, why isn't it applied inside our own castle walls?</p>
+
+    <p>— I know. And you, without question, would have been the best. You were always the best student — in knowledge, in speech, and the most beautiful too.</p>
+
+    <p>She stands and comes toward me. My heart races faster still, but I stay on my knees. She takes my hands and presses a handkerchief into them.</p>
+
+    <p>— A Mother-Queen can't have cut-up hands, Laura.</p>
+  <div class="scene-wrap">
+    <button class="scene-cue" data-video="assets/video/oratorio-justine.mp4">
+      <span class="sc-thumb"><span class="sc-play-ico"><svg viewBox="0 0 10 10"><polygon points="1,0 10,5 1,10"/></svg></span></span>
+      <span class="sc-label" data-en="Watch the scene" data-pt="Ver a cena">Watch the scene</span>
+    </button>
+  </div>
+
+  </section>
+
+  <div class="divider">✦</div>
+  <div class="narration-wrap">
+    <button class="narration-cue" data-audio="assets/audio/narration/line3.mp3">
+      <span class="nc-icon"><svg class="nc-play" viewBox="0 0 10 10" fill="currentColor"><polygon points="1,0 10,5 1,10"/></svg><span class="nc-eq"><i></i><i></i><i></i></span></span>
+      <span class="nc-text" data-en="Listen to Laura" data-pt="Ouvir Laura">Listen to Laura</span>
+    </button>
+  </div>
+
+  <section class="zone" data-zone="laranjal">
+    <p>Like every night, I pretend to sleep until well before dawn, when I slip down to the Weapons Yard. There I meet Simon, in the usual half-dark, with the usual longswords. Together we walk to the orangery — this time of year the trees are all moved outdoors, so the whole building sits empty, forgotten, ours. Dust drifts pale in the first light coming through the tall windows.</p>
+
+    <p>— Did mother fight with you, Laura? — he asks while we warm up, still trading slow blows on purpose.</p>
+
+    <p>— How did she find out?</p>
+
+    <p>— A blunted sword still leaves a mark, sister. And you haven't been gentle with me.</p>
+
+    <p>— Is that what you want? — I laugh in the middle of the sentence, unable to help it. — She said that you, as a well-fed man, are going to get stronger every day.</p>
+
+    <p>— Are you provoking me? — He speeds up the pace of his strikes.</p>
+
+    <p>— Show me what a fourteen-year-old man can do.</p>
+  <div class="scene-wrap">
+    <button class="scene-cue" data-video="assets/video/laranjal-duelo.mp4">
+      <span class="sc-thumb"><span class="sc-play-ico"><svg viewBox="0 0 10 10"><polygon points="1,0 10,5 1,10"/></svg></span></span>
+      <span class="sc-label" data-en="Watch the scene" data-pt="Ver a cena">Watch the scene</span>
+    </button>
+  </div>
+
+    <p>Simon likes to brag that Anthony, the Arms Master, always praises him — even calls him a prodigy. I find that strange, because for me it's far too easy. I've only ever fought him, my whole life, and yet I predict his every move without effort. He truly has strength. He never manages to hit me. And I never let him.</p>
+
+    <p>His feet strike the dusty stone floor of the empty orangery in wide, predictable steps: left foot first, dragging slightly, then the right, which turns the hip for momentum. It's a movement he learned from Anthony. The Arms Master has already taught me a great deal, through Simon, without ever knowing it.</p>
+
+    <p>He attacks from above — his right arm rises, the longsword tracing an arc that starts behind his head and comes down toward my shoulder. I take one small step back, just enough for the tip to pass through empty air. The weight of his own strike throws his balance off for an instant.</p>
+
+    <p>— Oh, if I wanted to... — I say, with more effort than I actually feel.</p>
+
+    <p>My brother recovers his stance. I hear a low growl, which makes me laugh, before he tries a different angle: he advances with his right foot into a straight thrust, fast and direct.</p>
+
+    <p>I lean my torso to the left, the blade passes close along my waist, and I use the motion to spin and set my own sword against his exposed ribs.</p>
+
+    <p>— I know you never believe it — he says, exhausted. — But you're better than any student, sister. Even the older ones.</p>
+
+    <p>— I hope you're right, little brother. I'm going to need to be.</p>
+  </section>
+
+  <footer class="endmark">End of Chapter II</footer>
+</div>
+
+<!-- ============================================================= -->
+<!-- PORTUGUESE BLOCK                                               -->
+<!-- ============================================================= -->
+<div class="lang-content" data-lang="pt" id="langBlockPT">
+  <div class="chapter-mark">
+    <span class="eyebrow">Capítulo II</span>
+    <h2>Laura D'Orrose — Sob a Seda</h2>
+  </div>
+
+  <div class="narration-wrap">
+    <button class="narration-cue" data-audio="assets/audio/narration/line1.mp3">
+      <span class="nc-icon"><svg class="nc-play" viewBox="0 0 10 10" fill="currentColor"><polygon points="1,0 10,5 1,10"/></svg><span class="nc-eq"><i></i><i></i><i></i></span></span>
+      <span class="nc-text" data-en="Listen to Laura" data-pt="Ouvir Laura">Ouvir Laura</span>
+    </button>
+  </div>
+
+  <section class="zone" data-zone="alfaiataria">
+    <p class="first-p">O alfaiate mede cada centímetro do meu corpo pela milésima vez nesta semana, a fita métrica fria contra a pele, os alfinetes presos na boca como espinhos de um animal pequeno. Daqui a um mês acontece o Torneio Real, e minha mãe — a Mãe-Rainha Dolores D'Orrose — parece mais ansiosa do que eu. Quer que eu esteja impecável diante do novo General-Rei.</p>
+
+    <p>E pela milésima vez estou aqui, desconfortável, a respiração presa, enquanto o senhor alfaiate faz seu trabalho. Conto o caminho até a janela: uns vinte passos rápidos, um salto de um metro, e desço pelo telhado da biblioteca. Do outro lado há uma vinha-virgem que aguenta meu peso até o chão. Dali é só achar um cavalo. Não seria problema desaparecer por Redom, se todo mundo não soubesse quem eu sou. A filha da Mãe-Rainha.</p>
+  <div class="scene-wrap">
+    <button class="scene-cue" data-video="assets/video/alfaiataria-medidas.mp4">
+      <span class="sc-thumb"><span class="sc-play-ico"><svg viewBox="0 0 10 10"><polygon points="1,0 10,5 1,10"/></svg></span></span>
+      <span class="sc-label" data-en="Watch the scene" data-pt="Ver a cena">Ver a cena</span>
+    </button>
+  </div>
+
+    <p>É também a milésima vez que traço esse plano de fuga. Casar e dar filhos a um nobre desconhecido é um pesadelo que a cada dia chega mais perto de virar realidade. Fui preparada a vida inteira para este dia, e mesmo assim não estou preparada. Tento me recompor, sinto os olhos se encherem de lágrimas.</p>
+
+    <p>— Ah — o alfaiate se afasta e me olha dos pés à cabeça. — Você vai ser a Mãe-Rainha mais bela da história. Sem dúvida, o vestido com os adornos de esmeralda é a melhor escolha. Combina com seus olhos esverdeados, e o dourado do seu cabelo fica ainda mais vivo ao lado dele.</p>
+
+    <p>Respondo com um bocejo. Não por má educação — talvez um instinto para justificar os olhos marejados. Mas complemento:</p>
+
+    <p>— Você é muito gentil, senhor Gideon.</p>
+
+    <p>Ele se curva para a frente, a mão no peito, e aproveita o gesto para já se virar, ainda curvado, na direção da porta, onde minha mãe acaba de entrar.</p>
+
+    <p>— Laura! — ela grita, atravessando o aposento apressada, quase chutando a mesa de centro no caminho. — Deixe-me ver suas mãos. Agora.</p>
+
+    <p>Não espera minha resposta. Ainda que eu leve as mãos para trás das costas por puro instinto, ela pega a direita, ríspida, virando minha palma para cima.</p>
+
+    <p>— Você andou treinando esgrima com seu irmão outra vez? Olhe só, cheia de calos. Laura!</p>
+
+    <p>— Foi só ontem à noite, mãe. Você sabe que a esgrima me acalma, e estou muito nervosa para o Torneio Real.</p>
+
+    <p>— Você sabe que isso não é justificativa! Tenho certeza de que todas as suas professoras já lhe explicaram muito bem que uma Mãe-Rainha não toca em armas. E não tem calos! Preciso conferir de novo se você não esconde nenhuma cicatriz pelo corpo?</p>
+
+    <p>É a deixa que Gideon esperava para sair da sala de fininho, ainda curvado.</p>
+
+    <p>— Posso garantir que meu corpo está igual à última vez que você conferiu, mãe. Só treino com Simon, e ele não consegue me acertar.</p>
+
+    <p>— Seu irmão está crescendo. Como homem bem alimentado, fica mais forte a cada dia.</p>
+
+    <p>Olho por trás de Dolores. O caminho até a janela parece mais curto agora do que quando Gideon ainda estava aqui.</p>
+
+    <p>— Você já tem dezesseis anos, Laura, minha querida. Prometa que essa foi a última vez.</p>
+
+    <p>Prometo. Odeio mentir — me faz mal, um peso físico atrás do peito — e desta vez as lágrimas finalmente escorrem pelo rosto.</p>
+
+    <p>— Você vai ser muito feliz, minha filha. Markus vai vencer o Torneio, com certeza. É um homem honrado. Vocês vão governar melhor do que eu e seu falecido pai.</p>
+  </section>
+
+  <div class="divider">✦</div>
+  <div class="narration-wrap">
+    <button class="narration-cue" data-audio="assets/audio/narration/line2.mp3">
+      <span class="nc-icon"><svg class="nc-play" viewBox="0 0 10 10" fill="currentColor"><polygon points="1,0 10,5 1,10"/></svg><span class="nc-eq"><i></i><i></i><i></i></span></span>
+      <span class="nc-text" data-en="Listen to Laura" data-pt="Ouvir Laura">Ouvir Laura</span>
+    </button>
+  </div>
+
+  <section class="zone" data-zone="oratorio-prece">
+    <p>Depois da pausa para o alfaiate, tenho uma longa tarde de aulas de história. Não consigo prestar muita atenção — no fim, todas as aulas se parecem. Histórias sobre a Guerra Eterna, que segundo dizem está perto do fim, já que os Grakh não são mais considerados uma ameaça séria; e mais rumores do que fatos sobre o Apagar das Luzes, que serve, todo dia, como novo lembrete dos perigos da magia.</p>
+
+    <p>Não sinto fome, e por isso desvio o caminho do refeitório para o oratório: um espaço pequeno, ocupado por duas grandes estátuas. O Cavaleiro e a Juíza. Nossos deuses.</p>
+
+    <p>Ajoelho aos pés do Cavaleiro e peço coragem, porque vou precisar de muita. Sinto que Ele olha por mim desde que sou muito criança, e que é o único que vai entender o que estou prestes a fazer. Peço desculpas por ter que roubar o que vou roubar, corromper o homem que vou corromper, quebrar uma ordem que deveria ser inquebrável.</p>
+  </section>
+
+  <section class="zone" data-zone="oratorio-justine">
+    <p>Abro os olhos e vejo que apertei as mãos com tanta força que as unhas furaram a pele; ambas sangram. Procuro algo para limpá-las e percebo alguém ajoelhada diante da Juíza. Justine. Ela encerra a própria prece assim que olha para mim, e meu coração dispara.</p>
+
+    <p>— Laura — fala baixo, mas sem delicadeza nenhuma.</p>
+
+    <p>— Oi, Justine. — Olho para baixo. É difícil encará-la sabendo que o sonho dela é ser a Mãe-Rainha.</p>
+
+    <p>— Veio pedir lealdade para o seu futuro marido? — O sorriso dela mistura deboche e tristeza a partes iguais. Reparo porque a luz do fim de tarde entra pela janela e ilumina os lábios dela, perfeitos.</p>
+
+    <p>— Você sabe que eu não quero isso. Sabe que, se eu pudesse, convenceria Dolores a escolher você, não a mim.</p>
+
+    <p>— Infelizmente o General-Rei se foi antes dela — ela diz, com sinceridade, com pesar. — É como as coisas costumam ser. Depois de tantos anos estudando juntas, sabemos disso melhor do que ninguém.</p>
+
+    <p>— Eu sei. Mas não me canso de vir aqui clamar à Juíza. Me preparei, mesmo com chances tão pequenas, para ser a melhor Mãe-Rainha que Redom já teve. Se a justiça é tão importante quanto nos ensinaram, por que ela não é aplicada dentro do nosso próprio castelo?</p>
+
+    <p>— Eu sei. E você, sem dúvida, seria a melhor. Sempre foi a melhor aluna — em conhecimento, em oratória, e a mais bela também.</p>
+
+    <p>Ela se levanta e vem na minha direção. Meu coração acelera ainda mais, mas continuo ajoelhada. Ela pega minhas mãos e me entrega um lenço.</p>
+
+    <p>— Uma Mãe-Rainha não pode ter as mãos cortadas, Laura.</p>
+  <div class="scene-wrap">
+    <button class="scene-cue" data-video="assets/video/oratorio-justine.mp4">
+      <span class="sc-thumb"><span class="sc-play-ico"><svg viewBox="0 0 10 10"><polygon points="1,0 10,5 1,10"/></svg></span></span>
+      <span class="sc-label" data-en="Watch the scene" data-pt="Ver a cena">Ver a cena</span>
+    </button>
+  </div>
+
+  </section>
+
+  <div class="divider">✦</div>
+  <div class="narration-wrap">
+    <button class="narration-cue" data-audio="assets/audio/narration/line3.mp3">
+      <span class="nc-icon"><svg class="nc-play" viewBox="0 0 10 10" fill="currentColor"><polygon points="1,0 10,5 1,10"/></svg><span class="nc-eq"><i></i><i></i><i></i></span></span>
+      <span class="nc-text" data-en="Listen to Laura" data-pt="Ouvir Laura">Ouvir Laura</span>
+    </button>
+  </div>
+
+  <section class="zone" data-zone="laranjal">
+    <p>Como faço todas as noites, finjo que durmo até bem antes da alvorada, quando desço até o Pátio das Armas. Lá encontro Simon, na penumbra de sempre, com as espadas longas de sempre. Juntos caminhamos até o laranjal — nessa época do ano as árvores ficam todas do lado de fora, então o prédio inteiro fica vazio, esquecido, só nosso. Poeira flutua clara na primeira luz que entra pelos janelões.</p>
+
+    <p>— Mamãe brigou com você, Laura? — ele pergunta enquanto aquecemos, ainda trocando golpes de propósito, devagar.</p>
+
+    <p>— Como ela descobriu?</p>
+
+    <p>— Espada sem fio ainda deixa marca, irmã. E você não tem sido branda comigo.</p>
+
+    <p>— É o que você quer? — Rio no meio da frase, sem conseguir evitar. — Ela disse que você, como homem bem alimentado, vai ficar mais forte a cada dia.</p>
+
+    <p>— Está me provocando? — Ele acelera o ritmo dos golpes.</p>
+
+    <p>— Me mostra o que um homem de catorze anos consegue fazer.</p>
+  <div class="scene-wrap">
+    <button class="scene-cue" data-video="assets/video/laranjal-duelo.mp4">
+      <span class="sc-thumb"><span class="sc-play-ico"><svg viewBox="0 0 10 10"><polygon points="1,0 10,5 1,10"/></svg></span></span>
+      <span class="sc-label" data-en="Watch the scene" data-pt="Ver a cena">Ver a cena</span>
+    </button>
+  </div>
+
+    <p>Simon gosta de se vangloriar dizendo que Anthony, o Mestre das Armas, sempre o elogia — chama até de prodígio. Acho estranho, porque para mim é fácil demais. Só lutei com ele a vida inteira, mas prevejo cada movimento seu sem esforço. Ele tem força de verdade. Nunca me acerta. E eu nunca deixo.</p>
+
+    <p>Os pés dele batem no chão de pedra empoeirado do laranjal vazio em passos largos e previsíveis: primeiro o esquerdo, arrastando de leve, depois o direito, que gira o quadril para ganhar impulso. É um movimento que aprendeu com Anthony. O Mestre das Armas já me ensinou muita coisa através de Simon, sem nunca saber disso.</p>
+
+    <p>Ele ataca de cima — o braço direito sobe, a espada longa desenha um arco que nasce atrás da cabeça e desce em direção ao meu ombro. Dou um passo pequeno para trás, só o suficiente para a ponta passar no vazio. O peso do próprio golpe desequilibra o tronco dele por um instante.</p>
+
+    <p>— Ah, se eu quisesse... — falo, com mais dificuldade do que sinto de verdade.</p>
+
+    <p>Meu irmão recupera a postura. Escuto um resmungo baixo, que me faz rir, antes de ele tentar outro ângulo: avança com o pé direito numa estocada reta, rápida e direta.</p>
+
+    <p>Inclino o tronco para a esquerda, a lâmina passa rente à minha cintura, e aproveito o movimento para girar o corpo e encostar minha espada na costela exposta dele.</p>
+
+    <p>— Eu sei que você nunca acredita — ele fala, exausto. — Mas você é melhor que qualquer aluno, irmã. Até os mais velhos.</p>
+
+    <p>— Espero que você esteja certo, irmãozinho. Vou precisar ser.</p>
+  </section>
+
+  <footer class="endmark">Fim do Capítulo II</footer>
+</div>
+
+</main>
+
+<!-- AUDIO WIDGET -->
+<div class="audio-widget muted" id="audioWidget">
+  <button id="audioToggle" aria-label="Ligar ou desligar som ambiente">
+    <svg id="iconOn" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>
+    <svg id="iconOff" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5 6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+  </button>
+  <div class="zone-label">
+    <span data-en="Ambient sound" data-pt="Som ambiente">Ambient sound</span>
+    <b id="zoneLabel">The Tailor's Room</b>
+  </div>
+  <div class="bars" id="bars"><i></i><i></i><i></i></div>
+</div>
+
+<!-- CODEX MODAL -->
+<div class="codex-overlay" id="codexOverlay">
+  <div class="codex-card" id="codexCard">
+    <div class="codex-image-wrap">
+      <button class="codex-close" id="codexClose">✕</button>
+      <img class="codex-image-bg" id="codexImageBg" src="" alt="" aria-hidden="true">
+      <img class="codex-image" id="codexImage" src="" alt="">
+    </div>
+    <div class="codex-body">
+      <div class="codex-eyebrow" id="codexEyebrow">Codex</div>
+      <h3 class="codex-title" id="codexTitle">—</h3>
+      <div class="codex-pages" id="codexPages"></div>
+      <div class="codex-foot">
+        <button class="codex-nav" id="codexPrev" aria-label="Página anterior">‹</button>
+        <div class="codex-dots" id="codexDots"></div>
+        <button class="codex-nav" id="codexNext" aria-label="Próxima página">›</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Os <audio> de ambiente não ficam fixos no HTML — o app.js cria um
+     por zona, dinamicamente, a partir de window.CHAPTER_CONFIG.zones -->
+<audio id="narrationPlayer" preload="none"></audio>
+
+<div class="video-overlay" id="videoOverlay">
+  <div class="video-card">
+    <button class="video-close" id="videoClose">✕</button>
+    <video id="scenePlayer" playsinline controls></video>
+  </div>
+</div>
+
+<script src="content/cap02/chapter-config.js"></script>
+<script src="https://marcelomartinsjorge.github.io/the4wills-shared/app.js"></script>
+</body>
+</html>

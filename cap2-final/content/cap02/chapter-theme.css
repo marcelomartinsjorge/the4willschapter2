@@ -1,0 +1,32 @@
+/* ======================================================================
+   TEMA DO CAPÍTULO 2 (Laura D'Orrose) — carregar DEPOIS de shared/css/main.css.
+   Não redeclara nada estrutural, só troca valores de variáveis de cor +
+   a fonte do corpo do texto. O main.css nunca é tocado.
+   ====================================================================== */
+
+:root{
+  /* Corpo do texto: branco/marfim quente (padrão do capítulo). */
+  --frost: #f1ece1;
+  --frost-dim: #a89f92;
+
+  /* Links/acentos: vermelho de Redom por padrão (zonas com accent:'gold' —
+     Aposento e Oratório). O Laranjal usa accent:'turq', que aqui vale
+     branco — é a única zona invertida (texto vermelho, link branco). */
+  --gold: #cf4f49;
+  --gold-soft: rgba(207,79,73,.35);
+  --turq: #f1ece1;
+  --turq-soft: rgba(241,236,225,.35);
+}
+
+/* Laranjal invertido: texto vermelho em vez do branco padrão do capítulo.
+   Os links (.gloss) já ficam brancos sozinhos via --turq acima. */
+section.zone[data-zone="laranjal"] p{
+  color: #cf4f49;
+}
+
+/* Fonte do corpo — Cormorant Garamond no lugar do Spectral do Aheryn.
+   Títulos (Cinzel) e interface (Jost) continuam iguais de propósito,
+   pra manter uma identidade tipográfica única do livro. */
+body{
+  font-family:'Cormorant Garamond', Georgia, serif;
+}
